@@ -5,7 +5,7 @@
  */
 
 #include "ruby.h"
-#include "rubyio.h"
+#include "ruby/io.h"
 
 #include "ev_wrap.h"
 
