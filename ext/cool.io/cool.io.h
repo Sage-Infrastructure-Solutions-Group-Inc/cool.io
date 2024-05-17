@@ -8,7 +8,7 @@
 #define COOLIO_H
 
 #include "ruby.h"
-#include "rubyio.h"
+#include "io.h"
 
 #ifdef GetReadFile
 #define FPTR_TO_FD(fptr) (fileno(GetReadFile(fptr)))
